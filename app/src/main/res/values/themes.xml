@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Apilaravel" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/app_bg</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="title_style" parent="Theme.Apilaravel">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:fontFamily">@font/gotham</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="author_style" parent="Theme.Apilaravel">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/app_text_secondary</item>
+        <item name="android:fontFamily">@font/gotham</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="action_style" parent="Theme.Apilaravel">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:tint">@color/app_text_secondary</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>
